@@ -1,0 +1,62 @@
+update directory links in these files
+regen.js     line 13 / 19
+genetrictasks.js   line 10/14
+
+
+
+Searching 2 files for "trial"
+
+C:\Users\Mia\AppData\Local\Temp\scp02069\home\iqgenex\public_html\trial\js\regen.js:
+   11  		var location = window.location.pathname;
+   12  
+   13: 		if (location == '/trial/index.php' || location == '/trial/') {
+   14  			bioEp.init({
+   15  				width: 680,
+   ..
+   17  				cookieExp: 0
+   18  			});
+   19: 		} else if (location == '/trial/checkout.php') {
+   20  			// set default price
+   21  			var value = '$4.95';
+
+3 matches in 1 file
+
+
+Searching 442 files for "/trial/"
+
+C:\Users\Mia\Desktop\trial\inc\config.php:
+    3  error_reporting(E_ERROR ^ E_NOTICE);
+    4  error_reporting(E_ALL ^ E_NOTICE);
+    5: define('SITEURL_TERMS','http://iqgenex.com/trial/');
+    6  define('APIURL','crmprazahealth.limelightcrm.com/admin/');
+    7  define('USERNAME','SalesPageUser');
+
+C:\Users\Mia\Desktop\trial\index.php:
+  694  			<div id="bio_ep_content">
+  695  				<!-- <a href="javascript:void(0);"> -->
+  696: 				<a href="/trial/#pop">
+  697  					<img id="main_pop" src="images/main_pop.jpg" alt="Claim your discount!" />
+  698  				</a>
+
+C:\Users\Mia\Desktop\trial\js\generictasks.js:
+    8  	var location = window.location.pathname;
+    9  
+   10: 	if (location == '/trial/checkout.php') {
+   11  		var year = '20' + $('#Year').val();
+   12  		var month = $('#Month').val().replace(/^0+/, "");
+
+C:\Users\Mia\Desktop\trial\js\regen.js:
+   12  		var location = window.location.pathname;
+   13  
+   14: 		if (location == '/trial/hair1/index.php' || location == '/trial/hair1/') {
+   15  			bioEp.init({
+   16  				width: 680,
+   ..
+   18  				cookieExp: 0
+   19  			});
+   20: 		} else if (location == '/trial/hair1/checkout.php') {
+   21  			// set default price
+   22  			var value = '$4.95';
+
+
+
